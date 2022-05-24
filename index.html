@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Web General</title>
+</head>
+<body>
+    <header class="header" id="inicio">
+        <img src="./svg/bx-menu-alt-right.svg" class="hamburger" alt="#">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#servicio">Servicio</a>
+            <a href="#portafolio">Galería</a>
+            <a href="#expertos">Expertos</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <div class="contenedor head">
+            <h1 class="titulo">Maquetación Web: Mirko Pescio</h1>
+            <p class="copy">Página web convencional maquetada con HTML, CSS y JavaScript</p>
+        </div>
+    </header>
+    <main>
+        <section class="contenedor" id="servicio">
+            <h2 class="subtitulo">Nuestro servicio</h2>
+            <div class="contenedor-servicio">
+                <img src="./images/ideas-empresariales-mediante-la-promoción-de-productos-través-telefonía-móvil-publicidad-y-marketing-con-smartphone-para-165707878.jpg" alt="#">
+                <div class="checklist-servicio">
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span> Diseño Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, ab iusto cum nihil saepe excepturi?</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">2</span> Diseño Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, ab iusto cum nihil saepe excepturi?</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">3</span> Diseño Web</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, ab iusto cum nihil saepe excepturi?</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="gallery" id="portafolio">
+            <div class="contenedor">
+                <h2 class="subtitulo">Galería</h2>
+                <div class="contenedor-galeria">
+                    <img src="./images/buenos-aires-4.jpg" alt="#" class="img-galeria">
+                    <img src="./images/Mar-del-Plata1.jpg" alt="#" class="img-galeria">
+                    <img src="./images/city-2.jpg" alt="#" class="img-galeria">
+                    <img src="./images/city-4.jpg" alt="#" class="img-galeria">
+                    <img src="./images/city-5.jpg" alt="#" class="img-galeria">
+                    <img src="./images/london-3.jpg" alt="#" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <section class="imagen-light">
+            <img src="./images/cross.png" alt="img-close" class="close">
+            <img src="./images/plus.jpg" alt="img-plus" class="agregar-imagen">
+        </section>
+        <section class="contenedor" id="expertos">
+            <h2 class="subtitulo">Expertos en:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="./images/ilustración-vectorial-ventas-de-marketing-y-optimización-promoción-negocios-publicidad-en-línea-alerta-internet-concepto-193752840.jpg" alt="#">
+                    <h3 class="n-expert">Data Science</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="./images/seo.png" alt="#">
+                    <h3 class="n-expert">SEO</h3>
+                </div>
+                <div class="cont-expert">
+                    <img src="./images/security.jpg" alt="#">
+                    <h3 class="n-expert">Seguridad</h3>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">Mirko Pescio</h2>
+                <p>Contesto a todas las consultas</p>
+            </div>
+            <div class="social-media">
+                <a href="https://github.com/MirkoPescio" class="social-media-icon">
+                    <i class='bx bxl-github'></i>
+                </a>
+                <a href="https://facebook.com" class="social-media-icon">
+                    <i class='bx bxl-facebook'></i>
+                </a>
+                <a href="https://twitter.com" class="social-media-icon">
+                    <i class='bx bxl-twitter'></i>
+                </a>
+                <a href="https://instagram.com" class="social-media-icon">
+                    <i class='bx bxl-instagram'></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+
+    <script src="./js/menu.js"></script>
+    <script src="./js/lightbox.js"></script>
+</body>
+</html>
